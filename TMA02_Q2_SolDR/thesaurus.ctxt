@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.target=Thesaurus
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ thesaurus\ here.\r\n\r\n\ @author\ (Dom\ RIcci)\r\n\ @version\ (29-01-2022)\r\n
+comment1.params=
+comment1.target=Thesaurus()
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ thesaurus\r\n
+comment2.params=
+comment2.target=java.util.HashMap\ getThesaurus()
+comment2.text=\r\n\ to\ return\ synonyms\ for\ testing\ purposes\r\n\ @return\ synonyms\r\n
+comment3.params=
+comment3.target=void\ populate()
+comment3.text=\r\n\ for\ testing\ purposes,\ populates\ synonyms\ with\ two\ sample\ key\ values.\r\n\ happy\ -\ joyful\ contented\ cheerful\r\n\ angry\ -\ annoyed\ vexed\r\n
+comment4.params=
+comment4.target=void\ print()
+comment4.text=\r\n\ prints\ out\ all\ the\ keys\ and\ their\ synonyms\r\n
+comment5.params=aWord\ aSynonym
+comment5.target=void\ addSynonym(java.lang.String,\ java.lang.String)
+comment5.text=\r\n\ allows\ the\ user\ to\ enter\ a\ word\ and\ a\ synonym\ for\ said\ word.\r\n\ this\ is\ then\ added\ to\ the\ hashmap\ synonyms.\ if\ the\ word\ already\ in\ synonyms\r\n\ then\ asynonym\ is\ added\ to\ that\ hashset.\ if\ not\ a\ new\ entry\ is\ created\ with\ aWord\ as\ key\ and\ aSynonym\ as\ value.\r\n\r\n\ \r\n\ @param\ aWord\ \r\n\ @param\ aSynonym\r\n
+comment6.params=aWord\ aSentence
+comment6.target=void\ replaceWord(java.lang.String,\ java.lang.String)
+comment6.text=\r\n\ this\ prints\ new\ variations\ of\ the\ aSentence.\ using\ different\ synonyms\ for\ aWord.\r\n\ @param\ aSentence\r\n\ @param\ aWord\r\n
+comment7.params=
+comment7.target=void\ crossReference()
+numComments=8
